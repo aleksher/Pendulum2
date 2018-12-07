@@ -1,0 +1,11 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Viewer="clr-namespace:Microsoft.Research.Science.Data.Viewer;assembly=DataSetViewerControls" x:Class="DataSetSample.MainWindow"
+        Title="OSLO library .NET samples: OscillatingDNA" Height="350" Width="525">
+    <Grid>
+
+        <Viewer:DataSetViewerControl Name="MySDSviewer" Content="DataSetDataView" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

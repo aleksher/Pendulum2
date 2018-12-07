@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="RMOdeSample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400"
+    xmlns:d3="clr-namespace:Microsoft.Research.DynamicDataDisplay;assembly=DynamicDataDisplay.Silverlight">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <d3:Chart Name="plotter">
+            <Grid>
+                <!-- Numeric solution -->
+                <d3:LineGraph x:Name="x1" Description="x[1]" Stroke="#0000FF" StrokeThickness="1"/>
+                <d3:LineGraph x:Name="x2" Description="x[2]" Stroke="#000000" StrokeThickness="1"/>
+                <d3:LineGraph x:Name="step" Description="h" Stroke="#FF0000" StrokeThickness="1"/>
+            </Grid>
+        </d3:Chart>
+    </Grid>
+</UserControl>

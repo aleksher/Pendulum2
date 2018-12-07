@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="MHCSample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d3="clr-namespace:Microsoft.Research.DynamicDataDisplay;assembly=DynamicDataDisplay.Silverlight"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <!--D3 markup starts here-->
+        <d3:Chart Name="plotter">
+            <Grid>
+                <!-- Plot graphs -->
+                <d3:LineGraph x:Name="x1" Description="x[1]" Stroke="Green" StrokeThickness="4"/>
+                <d3:LineGraph x:Name="x2" Description="x[2]" Stroke="Red" StrokeThickness="4"/>
+                <d3:LineGraph x:Name="x3" Description="x[3]" Stroke="Blue" StrokeThickness="4"/>
+                <d3:LineGraph x:Name="x4" Description="x[4]" Stroke="#0000FF" StrokeThickness="4"/>
+                <d3:LineGraph x:Name="x5" Description="x[5]" Stroke="#00FF00" StrokeThickness="4"/>
+                <d3:LineGraph x:Name="x6" Description="x[6]" Stroke="Green" StrokeThickness="4"/>
+                <d3:LineGraph x:Name="x7" Description="x[7]" Stroke="Red" StrokeThickness="4"/>
+                <d3:LineGraph x:Name="x8" Description="x[8]" Stroke="Blue" StrokeThickness="4"/>
+                <d3:LineGraph x:Name="x9" Description="x[9]" Stroke="BurlyWood" StrokeThickness="4"/>
+                <d3:LineGraph x:Name="x10" Description="x[10]" Stroke="#F000FF" StrokeThickness="4"/>
+                <d3:LineGraph x:Name="x11" Description="x[11]" Stroke="#FF0F00" StrokeThickness="4"/>
+                <d3:LineGraph x:Name="x12" Description="x[12]" Stroke="Green" StrokeThickness="4"/>
+                <d3:LineGraph x:Name="x13" Description="x[13]" Stroke="Red" StrokeThickness="4"/>
+                <d3:LineGraph x:Name="x14" Description="x[14]" Stroke="Blue" StrokeThickness="4"/>
+                <d3:LineGraph x:Name="x15" Description="x[15]" Stroke="Black" StrokeThickness="4"/>
+                <d3:LineGraph x:Name="x16" Description="x[16]" Stroke="#F000FF" StrokeThickness="4"/>
+
+            </Grid>
+        </d3:Chart>
+    </Grid>
+</UserControl>
